@@ -2041,168 +2041,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148W"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148W"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148W_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148W_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:SS14"
 			(pin_numbers hide)
 			(pin_names
@@ -4200,6 +4038,18 @@
 		(uuid "17216da0-235e-440c-993e-06bcc0b4d836")
 	)
 	(junction
+		(at 295.91 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17e7a28c-562c-4af8-b121-a12ae37056c5")
+	)
+	(junction
+		(at 332.74 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c9f1992-2d39-4fce-8a08-6e25a3fbd133")
+	)
+	(junction
 		(at 365.76 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4272,6 +4122,18 @@
 		(uuid "4e775837-50c2-4a50-accd-d90a64e9b674")
 	)
 	(junction
+		(at 394.97 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55dcd04d-60d9-47d5-8efd-8d3e96a11085")
+	)
+	(junction
+		(at 295.91 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58771c2a-0e01-4685-9698-79f00768cbda")
+	)
+	(junction
 		(at 374.65 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4338,10 +4200,22 @@
 		(uuid "8f88a31b-9104-440b-a861-6fe8523ebd8d")
 	)
 	(junction
+		(at 394.97 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ac2882-37c9-4808-91e6-689fcbd89dc7")
+	)
+	(junction
 		(at 394.97 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c7aaf2-efb9-45a2-bcb0-581b6a1f6c67")
+	)
+	(junction
+		(at 365.76 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28112dd-7654-47b7-b633-de40feba6bb6")
 	)
 	(junction
 		(at 85.09 35.56)
@@ -4374,10 +4248,22 @@
 		(uuid "cc54564e-129d-4724-9903-30cb89c16671")
 	)
 	(junction
+		(at 332.74 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd09e1ef-17ab-464f-a96b-01132703d085")
+	)
+	(junction
 		(at 374.65 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d78cd97c-fcb6-4e4b-9822-5f72bc101439")
+	)
+	(junction
+		(at 365.76 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8cd8c67-685a-4b64-ab3e-f6ea731f6051")
 	)
 	(junction
 		(at 135.89 55.88)
@@ -4417,6 +4303,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 27.94) (xy 295.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019f559a-a207-4c5f-876c-db607b964898")
+	)
+	(wire
+		(pts
 			(xy 110.49 200.66) (xy 113.03 200.66)
 		)
 		(stroke
@@ -4447,13 +4343,13 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 29.21) (xy 394.97 36.83)
+			(xy 370.84 20.32) (xy 370.84 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16794f39-5145-4afe-9718-fa80d808a384")
+		(uuid "12cb51ea-d859-4126-996e-cb1e12b7ca4c")
 	)
 	(wire
 		(pts
@@ -4467,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 27.94) (xy 332.74 36.83)
+			(xy 332.74 25.4) (xy 332.74 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4534,6 +4430,16 @@
 			(type default)
 		)
 		(uuid "2d2dcbd7-610a-4e3d-b130-2e5800ddcee6")
+	)
+	(wire
+		(pts
+			(xy 365.76 17.78) (xy 372.11 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316947cf-4ec9-4504-bf9e-41041756fa8a")
 	)
 	(wire
 		(pts
@@ -4634,6 +4540,16 @@
 			(type default)
 		)
 		(uuid "431caa73-7db0-4d5b-9175-d243f2dd4a6e")
+	)
+	(wire
+		(pts
+			(xy 295.91 17.78) (xy 302.26 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4402eba8-37d2-429c-be2f-9452b392ac9c")
 	)
 	(wire
 		(pts
@@ -4787,17 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 20.32) (xy 339.09 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f8668c-6ea5-4baa-8b80-8c460728f4d4")
-	)
-	(wire
-		(pts
-			(xy 295.91 27.94) (xy 295.91 36.83)
+			(xy 295.91 25.4) (xy 295.91 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4887,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 20.32) (xy 339.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac5931f-44f9-4189-987d-b3871cafbbb2")
+	)
+	(wire
+		(pts
 			(xy 295.91 52.07) (xy 295.91 46.99)
 		)
 		(stroke
@@ -4924,6 +4840,16 @@
 			(type default)
 		)
 		(uuid "871b2214-5dc0-41e4-84a9-6a541d8a7b94")
+	)
+	(wire
+		(pts
+			(xy 398.78 25.4) (xy 394.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886bebe7-ab23-426d-bfb1-3f18d47ad2da")
 	)
 	(wire
 		(pts
@@ -4994,6 +4920,16 @@
 			(type default)
 		)
 		(uuid "91ed264e-2ebc-4b23-a17c-78c72f11cfa8")
+	)
+	(wire
+		(pts
+			(xy 365.76 26.67) (xy 365.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927d649a-6e82-46e0-a899-4313357d392c")
 	)
 	(wire
 		(pts
@@ -5097,6 +5033,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 20.32) (xy 302.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea95289-f30d-46b5-8198-9c1086e36440")
+	)
+	(wire
+		(pts
 			(xy 96.52 175.26) (xy 110.49 175.26)
 		)
 		(stroke
@@ -5137,7 +5083,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 21.59) (xy 372.11 21.59)
+			(xy 370.84 20.32) (xy 372.11 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5257,6 +5203,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 26.67) (xy 365.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd664019-2362-48b7-82c7-9de82f395f73")
+	)
+	(wire
+		(pts
 			(xy 374.65 214.63) (xy 374.65 217.17)
 		)
 		(stroke
@@ -5267,6 +5223,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 27.94) (xy 295.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31c4488-1955-4085-a086-4728c6ed726c")
+	)
+	(wire
+		(pts
 			(xy 69.85 195.58) (xy 74.93 195.58)
 		)
 		(stroke
@@ -5274,6 +5240,16 @@
 			(type default)
 		)
 		(uuid "c69a5028-acaf-4f54-861b-db30c0a0c57d")
+	)
+	(wire
+		(pts
+			(xy 332.74 26.67) (xy 332.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f4ff1b-f6d4-4da9-b644-2b2cd0178945")
 	)
 	(wire
 		(pts
@@ -5297,6 +5273,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 17.78) (xy 398.78 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7041ee-ffeb-4061-9029-3a3bfb976b68")
+	)
+	(wire
+		(pts
 			(xy 110.49 204.47) (xy 110.49 205.74)
 		)
 		(stroke
@@ -5317,13 +5303,43 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 29.21) (xy 365.76 36.83)
+			(xy 339.09 26.67) (xy 332.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01f3732-628b-4320-a5de-4fbf54254116")
+	)
+	(wire
+		(pts
+			(xy 365.76 25.4) (xy 365.76 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0e3c154-4bae-44a0-906c-b38dccfc089d")
+	)
+	(wire
+		(pts
+			(xy 332.74 17.78) (xy 339.09 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1244a82-5882-4280-8cde-3de18abd89a0")
+	)
+	(wire
+		(pts
+			(xy 398.78 20.32) (xy 398.78 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d407ae9e-f003-477f-b7a1-c8e432517afa")
 	)
 	(wire
 		(pts
@@ -5417,6 +5433,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 25.4) (xy 394.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e406776e-f9f1-4041-8756-7c1672d2380b")
+	)
+	(wire
+		(pts
 			(xy 234.95 214.63) (xy 234.95 215.9)
 		)
 		(stroke
@@ -5444,16 +5470,6 @@
 			(type default)
 		)
 		(uuid "f0ca1699-7022-4652-9571-e998fb9bae48")
-	)
-	(wire
-		(pts
-			(xy 295.91 20.32) (xy 302.26 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c857a6-0e2c-4574-9557-6e019e43f194")
 	)
 	(wire
 		(pts
@@ -5514,16 +5530,6 @@
 			(type default)
 		)
 		(uuid "fdc1a292-a3b6-4f83-8ce9-b98b4aad97c4")
-	)
-	(wire
-		(pts
-			(xy 394.97 21.59) (xy 398.78 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4ad082-9841-4d77-96fa-579d1c00a3e2")
 	)
 	(global_label "IMU_INT"
 		(shape input)
@@ -5593,7 +5599,7 @@
 	)
 	(global_label "LED_2"
 		(shape input)
-		(at 356.87 88.9 180)
+		(at 364.49 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5603,7 +5609,7 @@
 		)
 		(uuid "1532ca09-fedf-4a76-8d90-dc901d37a984")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.2606 88.9 0)
+			(at 355.8806 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5929,7 @@
 	)
 	(global_label "LED_3"
 		(shape input)
-		(at 356.87 100.33 180)
+		(at 364.49 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5933,7 +5939,7 @@
 		)
 		(uuid "9b489ae5-3fc0-4c53-93f0-cdacc3dc1b52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.2606 100.33 0)
+			(at 355.8806 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6039,7 @@
 	)
 	(global_label "LED_1"
 		(shape input)
-		(at 356.87 78.74 180)
+		(at 364.49 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6043,7 +6049,7 @@
 		)
 		(uuid "b5c05c1c-ee6b-4c08-9a37-4a90cf173100")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.2606 78.74 0)
+			(at 355.8806 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6171,7 @@
 	)
 	(global_label "LED_4"
 		(shape input)
-		(at 356.87 110.49 180)
+		(at 364.49 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6175,7 +6181,7 @@
 		)
 		(uuid "df385699-a97e-45c5-b1c8-9aa07961e11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.2606 110.49 0)
+			(at 355.8806 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "430"
 			(at 393.7 106.68 90)
 			(effects
 				(font
@@ -6233,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 393.7 112.268 90)
 			(effects
 				(font
@@ -6277,16 +6283,15 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 394.97 25.4 270)
+		(at 394.97 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04384a5b-68c4-4c16-9e00-c545af13b467")
 		(property "Reference" "D4"
-			(at 397.51 23.8124 90)
+			(at 389.89 26.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6300,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 397.51 26.3524 90)
+			(at 388.62 28.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 390.525 25.4 0)
+			(at 390.525 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 394.97 25.4 0)
+			(at 394.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6327,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 394.97 25.4 0)
+			(at 394.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.71 175.26 0)
 			(effects
 				(font
@@ -6497,7 +6502,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1"
+		(property "Value" "5.1k"
 			(at 326.39 193.04 90)
 			(effects
 				(font
@@ -6505,7 +6510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 326.39 198.628 90)
 			(effects
 				(font
@@ -6641,7 +6646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 356.362 48.26 90)
 			(effects
 				(font
@@ -6685,7 +6690,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 365.76 25.4 270)
+		(at 365.76 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6694,7 +6699,7 @@
 		(fields_autoplaced yes)
 		(uuid "1039e262-89ae-4cde-a231-82c8070e32f2")
 		(property "Reference" "D3"
-			(at 368.3 23.8124 90)
+			(at 368.3 20.0024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6708,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 368.3 26.3524 90)
+			(at 368.3 22.5424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6717,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 361.315 25.4 0)
+			(at 361.315 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6726,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 365.76 25.4 0)
+			(at 365.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6735,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 365.76 25.4 0)
+			(at 365.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.792 200.66 90)
 			(effects
 				(font
@@ -7459,7 +7464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.5152 62.23 0)
 			(effects
 				(font
@@ -7528,7 +7533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 49.53 62.5348 0)
 			(effects
 				(font
@@ -7598,7 +7603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 63.1952 205.74 0)
 			(effects
 				(font
@@ -7642,7 +7647,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 339.09 17.78 90)
+		(at 332.74 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7651,7 +7656,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b4c5a6c-2402-46e0-9521-58b4f5ce81ea")
 		(property "Reference" "#PWR019"
-			(at 342.9 17.78 0)
+			(at 332.74 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +7665,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 335.28 17.7799 90)
+			(at 335.28 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +7674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 339.09 17.78 0)
+			(at 332.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +7683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 17.78 0)
+			(at 332.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +7692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 339.09 17.78 0)
+			(at 332.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "430"
 			(at 393.7 96.52 90)
 			(effects
 				(font
@@ -7733,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 393.7 102.108 90)
 			(effects
 				(font
@@ -7985,7 +7990,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 295.91 24.13 270)
+		(at 295.91 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7994,7 +7999,7 @@
 		(fields_autoplaced yes)
 		(uuid "43b43722-03e0-4ad8-9810-7266cc767486")
 		(property "Reference" "D1"
-			(at 298.45 22.5424 90)
+			(at 298.45 20.0024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8008,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 298.45 25.0824 90)
+			(at 298.45 22.5424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8017,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 291.465 24.13 0)
+			(at 291.465 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8026,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 295.91 24.13 0)
+			(at 295.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8035,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 295.91 24.13 0)
+			(at 295.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 236.22 194.0052 0)
 			(effects
 				(font
@@ -8262,92 +8267,6 @@
 			(project "DroneBoard"
 				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
 					(reference "Motor2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 360.68 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bb1e25c-5058-4612-90db-c02c394c6d4d")
-		(property "Reference" "D5"
-			(at 360.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 360.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 360.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 360.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 360.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 360.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18544941-d865-4634-8da3-83973e17fd60")
-		)
-		(pin "2"
-			(uuid "e1b61821-40cc-41a9-aff4-af48d9b02a22")
-		)
-		(instances
-			(project ""
-				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8556,7 +8475,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 372.11 19.05 90)
+		(at 365.76 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8565,7 +8484,7 @@
 		(fields_autoplaced yes)
 		(uuid "57554f0c-da7a-48b5-927b-f1e8b057b9d8")
 		(property "Reference" "#PWR020"
-			(at 375.92 19.05 0)
+			(at 365.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8493,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 368.3 19.0499 90)
+			(at 368.3 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 372.11 19.05 0)
+			(at 365.76 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,7 +8511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 19.05 0)
+			(at 365.76 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +8520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 372.11 19.05 0)
+			(at 365.76 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +8906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 92.4052 45.72 0)
 			(effects
 				(font
@@ -9533,7 +9452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 84.328 49.53 90)
 			(effects
 				(font
@@ -9670,7 +9589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 45.72 0)
 			(effects
 				(font
@@ -9740,7 +9659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 323.342 48.26 90)
 			(effects
 				(font
@@ -9810,7 +9729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 286.512 48.26 90)
 			(effects
 				(font
@@ -9936,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "430"
 			(at 393.7 74.93 90)
 			(effects
 				(font
@@ -9944,7 +9863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 393.7 80.518 90)
 			(effects
 				(font
@@ -9987,92 +9906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 360.68 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ba4b19c-ae37-466b-bd58-57a9c965d6a4")
-		(property "Reference" "D6"
-			(at 360.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 360.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 360.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 360.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 360.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 360.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d626de48-13f7-4f83-ad9a-ab81498fa2e8")
-		)
-		(pin "2"
-			(uuid "bbeddca5-c7a0-4a9a-ab0e-23e68ce4b52e")
-		)
-		(instances
-			(project "DroneBoard"
-				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 387.35 48.26 0)
 		(unit 1)
@@ -10100,7 +9933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 385.572 48.26 90)
 			(effects
 				(font
@@ -10354,7 +10187,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 398.78 19.05 90)
+		(at 394.97 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10363,7 +10196,7 @@
 		(fields_autoplaced yes)
 		(uuid "9212b84d-43c3-4c8e-a08b-9d701d1aabe2")
 		(property "Reference" "#PWR021"
-			(at 402.59 19.05 0)
+			(at 394.97 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10205,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 394.97 19.0499 90)
+			(at 397.51 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 398.78 19.05 0)
+			(at 394.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 19.05 0)
+			(at 394.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 398.78 19.05 0)
+			(at 394.97 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +10280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 244.8052 184.15 0)
 			(effects
 				(font
@@ -10491,16 +10324,15 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 332.74 24.13 270)
+		(at 332.74 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "92f680d0-18a2-4945-8f08-17ee43432410")
 		(property "Reference" "D2"
-			(at 335.28 22.5424 90)
+			(at 328.422 19.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +10341,7 @@
 			)
 		)
 		(property "Value" "SS14"
-			(at 335.28 25.0824 90)
+			(at 325.374 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10350,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 328.295 24.13 0)
+			(at 328.295 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +10359,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 332.74 24.13 0)
+			(at 332.74 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10368,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 332.74 24.13 0)
+			(at 332.74 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,94 +10392,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 360.68 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95fa8a4a-4e5c-48b5-82ee-60fc453c9ae0")
-		(property "Reference" "D10"
-			(at 360.68 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 360.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 360.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 360.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 360.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 360.68 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db0e56b2-25ba-4bc7-a3ea-a385b15c2c25")
-		)
-		(pin "2"
-			(uuid "39fa64b6-515d-4c3d-a73f-4bdf57547f0d")
-		)
-		(instances
-			(project "DroneBoard"
-				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VAA")
-		(at 302.26 17.78 90)
+		(at 295.91 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10656,7 +10402,7 @@
 		(fields_autoplaced yes)
 		(uuid "999956c9-116e-48d0-b920-644fd54a3da8")
 		(property "Reference" "#PWR09"
-			(at 306.07 17.78 0)
+			(at 295.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10411,7 @@
 			)
 		)
 		(property "Value" "VAA"
-			(at 298.45 17.7799 90)
+			(at 298.45 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 17.78 0)
+			(at 295.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +10429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 17.78 0)
+			(at 295.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +10438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 302.26 17.78 0)
+			(at 295.91 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +10553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.4252 204.47 0)
 			(effects
 				(font
@@ -11104,7 +10850,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "430"
 			(at 393.7 85.09 90)
 			(effects
 				(font
@@ -11112,7 +10858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 393.7 90.678 90)
 			(effects
 				(font
@@ -11182,7 +10928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 136.8552 204.47 0)
 			(effects
 				(font
@@ -11251,7 +10997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 238.4552 184.15 0)
 			(effects
 				(font
@@ -11429,7 +11175,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 403.86 19.05 0)
+		(at 403.86 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11438,7 +11184,7 @@
 		(fields_autoplaced yes)
 		(uuid "bab688be-4ea7-4b4e-83e5-bd19686fb974")
 		(property "Reference" "Motor4"
-			(at 406.4 19.0499 0)
+			(at 406.4 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +11193,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 406.4 21.5899 0)
+			(at 406.4 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +11202,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 403.86 19.05 0)
+			(at 403.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +11211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 403.86 19.05 0)
+			(at 403.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +11220,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 403.86 19.05 0)
+			(at 403.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11245,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 19.05 0)
+		(at 377.19 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11508,7 +11254,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd0b683b-aa58-42d5-8e1e-761422d57afb")
 		(property "Reference" "Motor3"
-			(at 379.73 19.0499 0)
+			(at 379.73 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11263,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 379.73 21.5899 0)
+			(at 379.73 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11272,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 377.19 19.05 0)
+			(at 377.19 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 19.05 0)
+			(at 377.19 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11290,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 377.19 19.05 0)
+			(at 377.19 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12022,7 +11768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 381 201.168 90)
 			(effects
 				(font
@@ -12492,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.3552 224.79 0)
 			(effects
 				(font
@@ -12529,92 +12275,6 @@
 			(project "DroneBoard"
 				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 360.68 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa73cade-e084-4556-87b7-592fec49aac1")
-		(property "Reference" "D9"
-			(at 360.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 360.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 360.68 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 360.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 360.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 360.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 360.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f60fa71a-6ef6-4623-9a8c-78212786cf5d")
-		)
-		(pin "2"
-			(uuid "af6506ed-96d1-4435-9c86-d0e0bee9d525")
-		)
-		(instances
-			(project "DroneBoard"
-				(path "/81ad14fe-aae2-4eb0-86e1-2dd7f9f02de9"
-					(reference "D9")
 					(unit 1)
 				)
 			)
